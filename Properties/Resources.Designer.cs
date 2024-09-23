@@ -93,6 +93,16 @@ namespace VBucks_Generator.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap giphy_ezgif_com_resize {
+            get {
+                object obj = ResourceManager.GetObject("giphy-ezgif.com-resize", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap vbucks {
             get {
                 object obj = ResourceManager.GetObject("vbucks", resourceCulture);

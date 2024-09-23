@@ -132,10 +132,19 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="loadingscreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="loadingscreen.Designer.cs">
+      <DependentUpon>loadingscreen.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="loadingscreen.resx">
+      <DependentUpon>loadingscreen.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -172,6 +181,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="56561_vbucks-png.ico" />
+    <None Include="Resources\giphy-ezgif.com-resize.gif" />
     <None Include="Resources\download.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
